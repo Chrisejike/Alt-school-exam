@@ -1,0 +1,396 @@
+/*Global*/
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: black;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /*Page 1*/
+.site-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 15px;
+    
+}
+
+.nav {
+    color: black;
+}
+
+.site-header-end {
+    color: #0065fe;
+    margin-top: -11px;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+button {
+    background-color: #0065fe;
+    border-color: #0065fe;
+    border-style: none;
+    border-radius: 18px;
+    padding: 7px 17px;
+}
+
+.container {
+    padding: 50px;
+}
+
+.core-item {
+    text-align: center;
+}
+
+.seamless-block {
+    position: absolute;
+    width: 728px;
+    height: 224px;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+
+.cone {
+    z-index: -1;
+    margin-left: 400px;
+}
+
+.ellipse {
+    margin-top: 20px;
+    margin-left: -25px;
+    
+} /* End of page 1*/
+
+
+
+
+/*Page 2*/
+
+.one-stop {
+    margin-left: 5px;
+    margin-top: -55px;
+    width: 100px;
+}
+
+.icon-blocks {
+    display: flex;  
+    flex-direction: column;
+    padding-left: 60px;
+}
+
+.page-two-groups {
+    display: flex;
+    flex-direction: row;
+    padding: 130px;
+} /*End of page 2*/
+
+
+
+
+
+/*Page 3*/
+
+.price-perfect {
+    text-align: center;
+}
+
+.pricing-options {
+    display: flex;
+    margin-top: 150px;
+    position: relative;
+    align-content: center;
+}
+
+.pricing-buttons {
+    margin-top: 150px;
+    margin-left: 482px;
+}
+
+.get-custom-pricing {
+    line-height: 12px;    
+    padding: 12px 30px;
+    font-size: 16px; 
+    color: #0065fe;
+    border-color: #0065fe;
+    border-style: solid;
+    background-color: white;
+}
+
+.select-pricing {
+    padding: 15px 35px;
+    font-size: 16px;
+    line-height: 12px; 
+    border-style: none;
+    background-color: #0065fe;
+    color: white;
+} /* End of Page 3*/
+
+
+
+
+
+
+/* Page 4*/
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/Rectangle.png);
+    height: 568px;
+    margin-top: 112px;
+}
+
+.domain-form {
+    display: flex;
+    background-color: white;
+    height: 355px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.domain-form input, .domain-form select {
+    height: 44px;
+    width: 158px;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border-color: #0065fe;
+    border-style: solid;
+}
+
+.paste-url-input {
+    width: 320px;  
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.input-group {
+    margin-top: 14px;
+}
+
+button[type="submit"] {
+    width: 320px;
+    height: 44px;
+    border-radius: 25px;
+    margin-top: 14px;
+    background-color: #0065fe;
+    border-style: none;
+    color: white;
+}
+
+.form-paragraph {
+    margin-top: 22px;
+    color: #0065fe;
+    font-size: 12px;
+    border-color: #0065fe;
+}
+
+::placeholder {
+    color: #0065fe;
+}
+
+select {
+    color: #0065fe;
+} /*End of page 4*/
+
+
+
+
+
+
+/* Page 5*/
+
+.faqs {
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 270px;
+    margin-right: 270px;
+    margin-bottom: 400px;
+  }
+
+.faqs-h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.accordion-block {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.accordion .acc-container {
+    position: relative;
+    margin: 5px 10px;
+  }
+  
+  /* Positions the labels relative to the .container. Adds padding to the top and bottom 
+  and increases font size. Also makes its cursor a pointer */
+  
+  .accordion .label {
+    position: relative;
+    padding: 15px 0;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+  }
+
+  .accordion .label::before {
+    content: '+';
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    font-size: 30px;
+    transform: translateY(-50%);
+  }
+
+  .accordion .label1::before {
+    content: '-';
+    color: black;
+    position: absolute;
+    top: 12%;
+    right: -5px;
+    font-size: 30px;
+    transform: translateY(-50%);
+  }
+
+  
+  .accordion .content {
+    background: white;
+    height: 0;
+    font-size: 20px;
+  }
+
+
+/*Page 6*/
+
+.revolutionising {
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.Rectangle {
+    height: 400px;
+   
+    position: absolute;
+}
+
+.left-vector1 {
+    position: absolute;
+}
+
+.left-vector2 {
+    position: absolute;
+}
+
+.left-vector3 {
+    position: absolute;
+}
+
+.right-vector4 {
+    position: absolute;
+    right: 0%;
+    margin-top: 300px;
+    
+}
+
+.right-vector5 {
+    position: absolute;
+    right: 0%;
+    margin-top: 250px;
+}
+  
+.right-vector6 {
+    position: absolute;
+    right: 0%;
+    margin-top: 200px;
+}
+
+.center-rev {
+    position: absolute;
+    text-align: center;
+    left: 0%;
+    right: 0%;
+    margin-top: 150px;
+    color: white;
+    font-size: 40px;
+}
+
+.get-started {
+    background-color: #0065fe;
+    color: white;
+    position: absolute;
+    right: 43%;
+    margin-top: 478px;
+    width: 150px;
+    align-self: center;
+} /* End of page 6*/
+
+/*Footer page*/
+
+footer {
+    position: absolute;
+    margin-top: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: small;
+    font-weight: 500;
+}
+
+.socials {
+    margin-left: 150px;
+    margin-top: 16px;
+}
+
+.solutions {
+    margin-left: 85px
+}
+
+.why-scissor {
+    margin-left: 85px;
+}
+
+.products {
+    margin-left: 85px;
+}
+
+.company {
+    margin-left: 85px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-left-vector {
+    position: absolute;
+    left: -100px;
+    bottom: -130px;
+}
+
+.footer-right-vector {
+    position: absolute;
+    right: -230px;
+    bottom: -130px;
+}
+
+.footnote {
+    margin-top: 1000px;
+    float: right;
+}
